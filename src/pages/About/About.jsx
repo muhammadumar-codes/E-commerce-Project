@@ -8,7 +8,12 @@ export default function About() {
 
   // ✅ useMemo makes sure this object reference doesn’t change
   // const user = useMemo(() => ({ names: "Muhammad umar" }), []);
-  const user =useMemo(()=>({names:"Muhammad Umar"}),[state.count])
+
+  // Array is also same like it it make the new Refrence
+
+  // Same funtion is  also like it make the new reference for it use the calllback
+
+  const user = useMemo(() => ({ names: "Muhammad Umar" }), [state.count]);
 
   return (
     <>
