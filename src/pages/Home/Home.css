@@ -1,0 +1,13 @@
+:root{
+    ---color:white;
+    ---backGroundColor:rgb(4, 4, 39);
+    ---pad:10px;
+
+
+}
+.hea ding{
+    color: var(---color);
+    background-color: var(---backGroundColor);
+    padding: var(---pad);
+    
+}
