@@ -5,7 +5,7 @@ return (
   <>
     <div className={className}>
   <div  className="banner-content">
-    <h1>⌚ {page} Watches</h1>
+    <h1> {page} ShopTopOne</h1>
     <p>Elegance on your wrist – Discover our collection</p>
    
   </div>

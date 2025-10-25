@@ -1,5 +1,5 @@
 .container-fluid-Home-page {
-  background-image: url("https://www.aviandco.com/media//banners/rubber-strap_2025_web_banner_1_cta.jpg");
+  background-image: url("/public/assets/images/shoping.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,8 +12,9 @@
   overflow: hidden;
 }
 
+
 .about-fluid {
-  background-image: url("/public/assets/images/About-img.jpg");
+  background-image: url("/public/assets/images/shopingAbout.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

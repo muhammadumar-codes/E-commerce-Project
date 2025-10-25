@@ -7,8 +7,14 @@ import "./Header.css";
 import Button from "../Button/Button";
 import { NavLink } from "react-router-dom";
 
+
 // ======= Header Component ==========
 export default function Header() {
+
+
+
+
+
   return (
     <>
       <header className="header">
@@ -38,6 +44,15 @@ export default function Header() {
           <form className="search-box">
             <input type="text" placeholder="Search..." />
           </form>
+
+             <NavLink to={"/Cart"}>
+              <img
+                src="/public/assets/images/cart-icon.png"
+                alt="Cart"
+                className="cart-icon-image"
+              />
+            </NavLink>
+
           {/* components used ! */}
           <Button>Log out</Button>
 
