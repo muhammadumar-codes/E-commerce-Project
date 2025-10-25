@@ -1,9 +1,11 @@
 
+import HeroSection from "../../components/HeroSection/HeroSection";
 export default function Home() {
   return (
     <>
   
- <h1>Home page</h1>
+  <HeroSection className={"container-fluid-Home-page "} page={"Home"}>Home Page</HeroSection>
+
     </>
   );
 }
