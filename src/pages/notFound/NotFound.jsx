@@ -1,7 +1,8 @@
-export default function NotFound (){
+import NotFound from "../../components/NotFound/NotFound"
+export default function NotFoundpage (){
     return (
         <>
-        <h1>Not Found #</h1>
+        <NotFound/>
         </>
     )
 }
