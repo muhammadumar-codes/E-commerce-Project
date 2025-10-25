@@ -1,6 +1,10 @@
 // 📦 Imports
 
 import "./Header.css";
+
+
+// components
+import Button from "../Button/Button";
 import { NavLink } from "react-router-dom";
 
 // ======= Header Component ==========
@@ -34,8 +38,9 @@ export default function Header() {
           <form className="search-box">
             <input type="text" placeholder="Search..." />
           </form>
+          {/* components used ! */}
+          <Button>Log out</Button>
 
-          <button className="button-logout">Log Out</button>
         </div>
       </header>
     </>

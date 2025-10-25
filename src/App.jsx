@@ -8,11 +8,11 @@ import NotFound from "./pages/NotFound/NotFound";
 //Layout
 import Layout from "./Layout/Layoute";
 
-import CountContextProvider from "./context/count";
+
 export default function App() {
   return (
     <>
-    <CountContextProvider>
+
 
       <Routes>
         <Route  element={<Layout />}>
@@ -22,7 +22,7 @@ export default function App() {
         </Route>
           <Route path="*" element={<NotFound />} />
       </Routes>
-    </CountContextProvider>
+
     </>
   );
 }
